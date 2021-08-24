@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> About- Aniruddha khedekar | Portfolio by UK</title>
+    <meta name="author" content="UDBHV @studio_21:4281:22">
+    <!-- stylesheet -->
+    <head>
+        <link rel="stylesheet" href="css/styles.css" />    
+        <link href="https://fonts.googleapis.com/css?family=Chivo:300,700|Playfair+Display:700i" rel="stylesheet"/>
+    </head>
+
+    <!-- greensock -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+</head>
+
+<body class="home">
+    <div class="wrapper">
+
+        <!-- menu -->
+        <nav class="menu">
+            <div class="menu__logo">
+                <a href="index.html">picture_concerto</a>
+            </div>
+            <div class="menu__items">
+                <div class="menu__items-link active"><a href="project.html">Projects</a></div>
+                <div class="menu__items-link active"><a href="about.html">About</a></div>
+            </div>
+        </nav>
+
+        <!-- horizontal scroll items -->
+        <div class="container">
+            <div class="container__item container__item-header">
+                <h1>Aniruddha khedekar <br> Digital Photographer</h1>
+            </div>
+
+            <div class="container__item container__item-1">
+                <h1 class="container__item-title">
+                    <a href="project.html"> VELLICHOR </a>
+                </h1>
+            </div>
+            <div class="container__item container__item-2">
+                <h1 class="container__item-title">
+                    <a href="project.html"> TIDSOPTIMIST </a>
+                </h1>
+            </div>
+            <div class="container__item container__item-3">
+                <h1 class="container__item-title">
+                    <a href="project.html"> CHRYSALISM </a>
+                </h1>
+            </div>
+            <div class="container__item container__item-4">
+                <h1 class="container__item-title">
+                    <a href="project.html">GOYA </a>
+                </h1>
+            </div>
+            <div class="container__item container__item-5">
+                <h1 class="container__item-title">
+                    <a href="project.html">UBUNTU </a>
+                </h1>
+            </div>
+                <div class="container__item container__item-6">
+                    <h1 class="container__item-title">
+                        <a href="project.html">REDAMANCY </a>
+                    </h1>
+                </div>
+            <div class="container__item container__item-7">
+                    <h1 class="container__item-title">
+                        <a href="project.html">ONISM </a>
+                    </h1>
+                </div>
+            <div class="container__item container__item-8">
+                    <h1 class="container__item-title">
+                        <a href="project.html">KOMOREBI </a>
+                    </h1>
+                </div>
+            <div class="container__item container__item-9">
+                    <h1 class="container__item-title">
+                        <a href="project.html"> FERNWEH </a>
+                    </h1>
+                </div>
+            <div class="container__item container__item-10">
+                    <h1 class="container__item-title">
+                        <a href="project.html"> VIRAHA  </a>
+                    </h1>
+                </div>
+                
+        </div>
+
+    </div>
+        
+    <!-- script -->
+    <script src="js/horizontal-scroll.js"></script>
+    <script>
+        var blocks = document.getElementsByClassName("container__item");
+        var container = document.getElementsByClassName("container");
+        var hs = new HorizontalScroll.default({
+            blocks: blocks,
+            container: container,
+            isAnimated: true,
+            springEffect: 0.8,
+        });
+    </script>
+</body>
+
+</html>
